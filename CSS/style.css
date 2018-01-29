@@ -1,3 +1,94 @@
-body{ 
-	background: gray;
+/*********COLOR SCHEME**************
+
+brown sugar: #a57548
+sandy brown: #f4ac5f
+linen: #fceede
+verdigris(blue): #339bb2
+medium sky blue: #82ddf0
+darkred: #8b0000
+*/
+
+/***************GENERAL***************/
+body{
+	background: #339bb2;
+	font-family: 'Noto Sans', sans-serif;
+	margin: 0;
+}
+
+h1, h2{
+	font-family: 'Permanent Marker', cursive;
+}
+h2{
+	font-size: 35px;
+	font-style: normal;
+	margin-top: 0;
+}
+
+a {
+	color: #f4ac5f;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.content-wrap{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 30px;
+	overflow: auto;
+}
+.tiny-column{
+	width: 30%;
+	float: left;
+	padding-right:20px;
+	min-height: 175px;
+}
+.broad-column{
+	width: 70%;
+	float: left;
+	min-height: 175px;
+}
+/* border box fix */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+/*************HEADER & FOOTER***************/
+header, footer{
+	background: #339bb2;
+}
+/* header */
+.profile-pic{
+	border-radius: 50%;
+}
+header{
+	/* text-align: center; */
+}
+header h1, header h2{
+	color: #fceede;
+	margin: 0;
+}
+
+/* footer */
+footer{
+	text-align: center;
+	color: #fceede;
+}
+.contact-info a{
+	padding: 10px;
+	display: inline-block;
+}
+
+/**************WORK****************/
+.work{
+	background: #82ddf0;
+}
+
+
+/*********EDUCATION****************/
+.education{
+	background: #fceede;
 }
