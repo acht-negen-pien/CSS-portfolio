@@ -23,7 +23,9 @@ h2{
 	font-style: normal;
 	margin-top: 0;
 }
-
+h3{
+	margin: 0;
+}
 a {
 	color: #f4ac5f;
 }
@@ -43,11 +45,13 @@ a:hover{
 	float: left;
 	padding-right:20px;
 	min-height: 175px;
+	/* border: 1px solid black; */
 }
 .broad-column{
 	width: 70%;
 	float: left;
 	min-height: 175px;
+	/* border: 1px solid black; */
 }
 /* border box fix */
 html {
@@ -55,6 +59,9 @@ html {
 }
 *, *:before, *:after{
 	box-sizing: inherit;
+}
+.uppercase{
+	text-transform: uppercase;
 }
 /*************HEADER & FOOTER***************/
 header, footer{
@@ -85,6 +92,9 @@ footer{
 /**************WORK****************/
 .work{
 	background: #82ddf0;
+}
+h3 ~ p {
+	margin: 0;
 }
 
 
